@@ -76,11 +76,11 @@ https://github.com/user-attachments/assets/634c6fc9-1626-4a6c-8872-283555c46da9
 
 | Critério                                                                                                 | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
 |---------------------------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------|---------------------------|
-| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores                | Até 3              | Até 1,5                            | 0                        |                           |
-| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo                  | Até 3              | Até 1,5                          | 0                        |                           |
-| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3              | Até 1,5                          | 0                        |                           |
-| Extra: Implmeentou um componente de liga/desliga no semáforo e/ou usou ponteiros no código | Até 1              |  Até 0,5                         | 0                        |                           |
-|  |                                                             |  | |Pontuação Total|
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores                | Até 3              | Até 1,5                          | 0                        | A montagem está bem organizada, com uso correto de cores e resistores, garantindo segurança e funcionalidade ao circuito. |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo                  | Até 3              | Até 1,5                          | 0                        | Os tempos estão precisos, respeitando a sequência correta para cada cor, o que reflete um bom entendimento da lógica do semáforo. |
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3              | Até 1,5                          | 0                        | O código está bem estruturado, com variáveis claras e comentários que facilitam a compreensão das etapas do semáforo. |
+| Extra: Implementou um componente de liga/desliga no semáforo e/ou usou ponteiros no código              | Até 1              | Até 0,5                          | 0                        | Apesar de não haver uso de ponteiros no código, a implementação da cancela que abre e fecha com base na distância medida pelo sonar está bem executada. |
+|                                                                                                         |                    |                                  |                          | *Pontuação Total: 10* |
 
 ## <a name="#c5"></a>2. Referências
 Espressif Systems. ESP32 Series Datasheet. Disponível em: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf. Acesso em: 31 out. 2024.
