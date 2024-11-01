@@ -49,7 +49,18 @@ https://github.com/user-attachments/assets/634c6fc9-1626-4a6c-8872-283555c46da9
 - **Controle da cancela**: o servo motor bloqueia e libera a passagem conforme o estado do semáforo e a presença de um pedestre.
 
 ## <a name="#c4"></a>1.3. Avaliação em pares
-### Avaliador: Nome do Avaliador
+
+### Avaliador: Nicolas Ramon
+
+| Critério                                                                                                 | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+|---------------------------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------|---------------------------|
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores                | Até 3              | Até 1,5                          | 0                        | A montagem possui boa disposição dos fios e os resistores foram utilizados corretamente para limitar a corrente dos LEDs. |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo                  | Até 3              | Até 1,5                          | 0                        | A temporização segue o ciclo estipulado para cada cor (6s vermelho, 2s amarelo, 4s verde, 2s amarelo), permitindo uma sequência coerente. |
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3              | Até 1,5                          | 0                        | O código foi estruturado corretamente para implementar as fases do semáforo e está bem comentado para facilitar o entendimento. |
+| Extra: Implementou um componente de liga/desliga no semáforo e/ou usou ponteiros no código              | Até 1              | Até 0,5                          | 0                        | Não há ponteiros no código, mas a cancela que abre e fecha baseada na distância adquirida pelo sonar ficou bem feita. |
+|                                                                                                         |                    |                                  |                          | **Pontuação Total: 10** |
+
+### Avaliador: Kauã Rodrigues
 
 | Critério                                                                                                 | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
 |---------------------------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------|---------------------------|
