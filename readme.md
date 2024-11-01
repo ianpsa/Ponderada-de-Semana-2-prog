@@ -22,7 +22,17 @@
 
 <div align="center">
 
-   <sub>Figura 1 - Diagrama feito no wokwi do projeto semáforo </sub>
+   <sub>Figura 1 - Protótipo físico</sub>
+
+   <img src="Protótipo_Físico.png"> 
+
+   <sup>Fonte: Material produzido pelo autor (2024)</sup>
+
+</div>
+
+<div align="center">
+
+   <sub>Figura 2 - Diagrama feito no wokwi do projeto semáforo </sub>
 
    <img src="ESP32_wokwi.png"> 
 
