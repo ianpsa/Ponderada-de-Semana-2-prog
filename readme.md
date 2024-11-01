@@ -39,6 +39,8 @@
 
 &nbsp;&nbsp;&nbsp; Após a montagem, o código foi implementado e ajustado conforme necessário. Para o funcionamento do sensor de distância, foram feitos testes para garantir que ele detectasse corretamente a presença de um pedestre e liberasse a passagem apenas quando a distância estivesse abaixo de 10 cm e o sinal estivesse verde. Caso contrário, o semáforo mantinha-se vermelho, mesmo que o ciclo normal tivesse mudado, até que um pedestre se aproximasse.
 
+https://github.com/user-attachments/assets/634c6fc9-1626-4a6c-8872-283555c46da9
+
 ### Resultados Observados
 - **Funcionamento adequado**: o semáforo segue o ciclo definido (6 segundos vermelho, 2 amarelo, 4 verde, 2 amarelo).
 - **Detecção de pedestres**: o sensor ultrassônico detecta corretamente pedestres a uma distância de 10 cm, permitindo a liberação da cancela.
