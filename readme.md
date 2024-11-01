@@ -40,10 +40,12 @@
 
 </div>
 
-- **LEDs**: conectados a portas digitais e configurados como saídas para simular o semáforo.
-- **Resistores**: conectados em série com cada LED para limitar a corrente e evitar danos.
-- **Sensor Ultrassônico**: posicionado para detectar a aproximação de pedestres a uma distância específica (10 cm).
-- **Servo Motor**: configurado para atuar como cancela e posicionado fisicamente para obstruir a passagem quando o sinal está vermelho.
+| Item                | Descrição                                                                                   | Função                                                                                              |
+|---------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| **LEDs**            | Conectados a portas digitais e configurados como saídas.                                    | Simulam o semáforo, indicando se a passagem está liberada ou bloqueada.                             |
+| **Resistores**      | Conectados em série com cada LED.                                                           | Limitam a corrente elétrica, protegendo os LEDs contra danos.                                       |
+| **Sensor Ultrassônico** | Posicionado para detectar a aproximação de pedestres a uma distância específica (10 cm). | Detecta pedestres para acionar o servo motor e controlar o estado do semáforo.                      |
+| **Servo Motor**     | Configurado para atuar como cancela.                                                        | Obstrui a passagem quando o sinal está vermelho, liberando quando o sinal está verde.               |
 
 ## <a name="c3"></a>1.1. Desenvolvimento e Resultado
 
