@@ -4,13 +4,13 @@
 
 ## Sumário
 
-[1. A atividade](#1-circuito)
+[1.1. A atividade](#1-circuito)
 
-[2. circuito](#11-desenvolvimento-e-resultado)
+[1.2. circuito](#11-desenvolvimento-e-resultado)
 
-[3. Avaliação em Pares](#13-avaliação-em-pares)
+[1.3. Avaliação em Pares](#13-avaliação-em-pares)
 
-[4. Referências](#2-referências)
+[2. Referências](#2-referências)
 
 <br>
 

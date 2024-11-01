@@ -10,6 +10,7 @@ unsigned long timer = 0;
 
 Servo meuServo;
 
+// Função de temporização
 int delayzinho(int tempo) {
   if (millis() - timer >= tempo) {
     timer = millis();
@@ -18,6 +19,7 @@ int delayzinho(int tempo) {
   return 0;
 }
 
+// Configura os pinos
 void configurarPinos() {
   pinMode(ledVerde, OUTPUT);
   pinMode(ledAmarelo, OUTPUT);
@@ -28,6 +30,7 @@ void configurarPinos() {
   meuServo.write(0);
 }
 
+// Envia pulso de trig do sensor
 void enviarPulsoTrig() {
   digitalWrite(PINO_TRIG, LOW);
   delayMicroseconds(2);
@@ -36,11 +39,13 @@ void enviarPulsoTrig() {
   digitalWrite(PINO_TRIG, LOW);
 }
 
+// Calcula a distância medida
 float medirDistancia() {
   long duracao = pulseIn(PINO_ECHO, HIGH);
   return (duracao * 0.0343) / 2;
 }
 
+// Controla a posição do servo
 void catraca(int graus, float distancia) {
   if (distancia < 10) {
     meuServo.write(graus);
@@ -49,6 +54,7 @@ void catraca(int graus, float distancia) {
   }
 }
 
+// Ativa sinal vermelho por 6s
 void sinalVermelho() {
   digitalWrite(ledVermelho, HIGH);
   digitalWrite(ledAmarelo, LOW);
@@ -56,6 +62,7 @@ void sinalVermelho() {
   while (!delayzinho(6000));
 }
 
+// Ativa sinal amarelo por 4s
 void sinalAmarelo() {
   digitalWrite(ledVermelho, LOW);
   digitalWrite(ledAmarelo, HIGH);
@@ -63,6 +70,7 @@ void sinalAmarelo() {
   while (!delayzinho(4000));
 }
 
+// Ativa sinal verde por 2s
 void sinalVerde() {
   digitalWrite(ledVermelho, LOW);
   digitalWrite(ledAmarelo, LOW);
@@ -75,6 +83,7 @@ void setup() {
   configurarPinos();
 }
 
+// Loop principal
 void loop() {
   enviarPulsoTrig();
   float distancia = medirDistancia();
@@ -84,6 +93,7 @@ void loop() {
 
   sinalVermelho();
 
+  // Aguarda até distância < 10 cm
   while (distancia > 10) {
     enviarPulsoTrig();
     distancia = medirDistancia();
