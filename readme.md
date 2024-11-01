@@ -49,6 +49,15 @@ https://github.com/user-attachments/assets/634c6fc9-1626-4a6c-8872-283555c46da9
 - **Controle da cancela**: o servo motor bloqueia e libera a passagem conforme o estado do semáforo e a presença de um pedestre.
 
 ## <a name="#c4"></a>1.3. Avaliação em pares
+### Avaliador: Nome do Avaliador
+
+| Critério                                                                                                 | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+|---------------------------------------------------------------------------------------------------------|--------------------|----------------------------------|--------------------------|---------------------------|
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores                | Até 3              | Até 1,5                            | 0                        |                           |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo                  | Até 3              | Até 1,5                          | 0                        |                           |
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3              | Até 1,5                          | 0                        |                           |
+| Extra: Implmeentou um componente de liga/desliga no semáforo e/ou usou ponteiros no código | Até 1              |  Até 0,5                         | 0                        |                           |
+|  |                                                             |  | |Pontuação Total|
 
 ## <a name="#c5"></a>2. Referências
 Espressif Systems. ESP32 Series Datasheet. Disponível em: https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf. Acesso em: 31 out. 2024.
